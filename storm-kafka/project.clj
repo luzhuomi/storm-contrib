@@ -3,7 +3,7 @@
   :repositories {"scala-tools" "http://scala-tools.org/repo-releases"
                   "conjars" "http://conjars.org/repo/"}
   :dependencies [[org.scala-lang/scala-library "2.10.2"]
-                  [org.apache.kafka/kafka_2.9.2 "0.8.0"
+                  [org.apache.kafka/kafka_2.10 "0.8.1"
                   :exclusions [org.apache.zookeeper/zookeeper
                                log4j/log4j]]]
   :profiles
